@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Community detection algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+        <li><a href="conclusion.html">conclusion</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.4. Similarity algorithms</center></strong></h2>
+    <p class="bg-danger">
+      Los algoritmos de similitud calculan la similitud de pares de nodos utilizando diferentes métricas basadas en vectores. <br>
+      Los algoritmos de similaridad o algoritmos de similitud, son aquellos que ejecutan cálculos matemáticos para determinar los niveles de 
+      semejanzas o compatibilidades  que existen entre conjuntos de datos. 
+    </p>
+    <h2><strong><center> Jaccard Similitud  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/jaccard similitud.jfif" width="400"  height="200"></div>
+    <p class="bg-danger">
+      Jaccard Similarity (coeficiente), un término acuñado por Paul Jaccard ,
+       mide las similitudes entre conjuntos. Se define como el tamaño de la intersección dividido por el tamaño de la unión de dos conjuntos.<br>
+        Este se define como el tamaño de la intersección dividida por el tamaño  de la unión de dos conjuntos.  Este se rige bajo la siguiente formula:
+    </p>
+    <div class=" col-12" align="center"><img src="img/jaccard.png"  width="400"  height="200"></div>
+    <h2><strong><center>Casos de uso</center></strong></h2>
+    <p class="bg-danger"> 
+   - Puede usarse para encontrar el conjunto de empresas en las que cada miembro posee acciones directas y / o indirectas en todos los demás miembros.</br>
+   - puede utilizar para calcular la conectividad de diferentes configuraciones de red al medir el rendimiento de enrutamiento en redes inalámbricas de múltiples tiendas. </br>
+   - ueden usar para encontrar dichos grupos y sugerir las páginas o juegos que comúnmente les gustan a las personas del grupo que aún no les han gustado esas páginas o juegos.</br>
+  </p>
+  <div class=" col-12" align="center"><img src="img/fuerteConectados.png" width="500"  height="500"></div>
+ 
+  <h2><strong><center>Ejemplo Similitud de Jaccard</center></strong></h2>
+
+  <div class=" col-12" align="center"><img src="img/ejempo Jaccard1.png" width="500"  height="500"></div>
+  <p class="bg-danger"> 
+
+    Siguiendo la siguiente formula vamos a obtener la similitud de Jaccard entre Karin y Arya<br>
+
+    J(A,B) = ∣A ∩ B∣ / ∣A∣ + ∣B∣ - ∣A ∩ B|<br>
+    Karin={Lebanese, Italian}<br>
+    Arya= {Portugual, Italiana,lebanese}<br>
+    J(Karin, Aria )= |2|/|5|-|2|<br>
+    J(Karin, Aria )= 2/3 <br>
+    J(Karin, Aria )= 0.6666<br>
+    
+  </p>
+  <h2><strong><center>resultdo en Neo4j</center></strong></h2>
+  <div class=" col-12" align="center"><img src="img/ejempo Jaccard2.png" ></div>
+
+  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/fI-lqDwJUZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </center>
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>

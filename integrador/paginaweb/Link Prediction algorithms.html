@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Community detection algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+        <li><a href="conclusion.html">conclusion</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>  5.6. Link Prediction algorithms</center></strong></h2>
+    <p class="bg-danger">
+      Los algoritmos de predicción de enlaces ayudan a determinar la cercanía de un par de nodos. <br>
+      Parten en su mayoría de la hipótesis de que si un nodo posee varías conexiones, puede ser 
+      mayor la probabilidad de que este reciba enlaces adicionales. Estos algoritmos son de uso 
+      fundamental en el análisis de redes sociales y otros ámbitos tecnológicos. 
+    </p>
+    <h2><strong><center> Asignación de recursos </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/asignacion.jfif" width="400"  height="200"></div>
+    
+    <h2><strong><center>¿Cómo funciona?</center></strong></h2>
+    <p class="bg-danger"> 
+      Este algoritmo de asignación de recursos nos ofrece una medida con la que podemos estimar con precisión 
+      la cercanía entre vértices pertenecientes a un grafo, tomando como principal referencia la función de sus vecinos compartidos. 
+    
+    </p>
+    
+
+    <h2><strong><center>Su funcionamiento esta regido por la siguiente formula:</center></strong></h2>
+    
+    <div class=" col-12" align="center"><img src="img/resource-allocation.png" width="400"  height="200"></div>
+    <p class="bg-danger"> 
+    Donde N(u) es el conjunto de nodos adyacentes a u. <br>Dentro de los resultados que podemos obtener con este algoritmo se tiene que 
+    los valores 0 indican que los nodos que son objeto de estudio no están cerca, mientras que en el caso de valores altos
+     indican que los nodos están más cerca.
+    </p>
+
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>

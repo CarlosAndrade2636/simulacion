@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Centrality algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+        <li><a href="conclusion.html">conclusion</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.2 algoritmos de centralidad </center></strong></h2>
+    <p class="bg-danger">
+      Determinan la importancia de distintos nodos mediante la medición de la afluencia transitiva o la conectividad 
+      que posee uno o mas nodos del grafo, evaluando esquemas de puntuaciones. Los nodos con mayor puntuación representan
+       los vértices con mayores conexiones.
+    </p>
+    <h2><strong><center>Page Rank  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/google-pagerank.png" width="500"  height="500"></div>
+    <p class="bg-danger">
+      PageRank proviene de Larry Page que desarrolló este algoritmo en la Universidad de Standford junto 
+      con Sergei Brin y lo patentó en 1997. El Page Rank es un algoritmo implementado por Google para posicionar
+       mejor a las diferentes paginas dentro de su buscador dependiendo del numero de enlaces que tenga la página, 
+       los usos para este tipo de algoritmo son muy altos entre ellos poder determinar la importancia de diferentes 
+       sitios o lugares turísticos dependiendo del número de conexiones que tengan estos.
+      
+    </p>
+
+    <h2><strong><center>calculo Page Rank  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/pageRank.jpg" width="500"  height="500"></div>
+  
+
+  
+    <h2><strong><center>¿Porqué fue importante?  </center></strong></h2>
+    <p class="bg-danger">
+      PageRank no fue el primer algoritmo en explorar la categorización de nodos en redes con base en su importancia.
+           Sin embargo, Google fue de los primeros buscadores en utilizar un algoritmo de este tipo en su sistema de búsqueda. 
+           Hasta antes de eso, los buscadores utilizaban conteo de palabras clave para decidir qué sitios web son los más relevantes 
+           para una busqueda; es decir que si una persona busca “Pokemón”, los resultados serían sitios web con la palabra “Pokemón” 
+           escrita muchas veces. Esta métrica para ordenar los sitios web es bastante mala, dado que un sitio de baja calidad 
+           puede estar lleno de la palabra “Pokemón”, y parecer relevante; pero no tener ninguna información relevante o 
+           interesante más allá de la palabra “Pokemón”. Este sitio sería un resultado inúti
+      
+    </p>
+
+
+    <h2><strong><center>Uso alternativo </center></strong></h2>
+    <p class="bg-danger">
+      A mediados del siglo pasado, se usaba un algoritmo similar para los estudios relacionados con la sociometría. 
+      En esa época, este algoritmo servía para calcular el estatus de un individuo en la sociedad. Más adelante, 
+      la Washington State University se percató de que este algoritmo podía también ser de gran utilidad para encontrar 
+      moléculas de agua entre productos químicos venenosos. Por otra parte, la empresa Moz creó el MozRank que determina
+       la popularidad de los enlaces. Y, por último, el OPR de [Ryte] analiza la popularidad de un sitio web.
+      
+    </p>
+
+    
+    <h2><strong><center> ejemplo </center></strong></h2>
+    <p class="bg-danger">
+   
+
+ Para comenzar nuestro estudio pensemos en un baby-Internet que consiste solo de tres páginas web
+  y que están conectadas como muestra la figura, es decir, en la página 1 existen una liga para 
+  que se acceda a la página 2, de manera similar en la página 2 existe una liga para poder acceder a la página 1.
+   Ocurre lo mismo para las páginas 2 y 3. Para las páginas 1 y 3, solo existe un botón en 3 para ir a 1.
+ 
+    </p>
+    <div class=" col-12" align="center"><img src="img/pageRank ejemplo1.png" width="500"  height="300"></div>
+    
+   
+    <p class="bg-danger">
+   
+
+      Contaremos los enlaces entrantes para cada una de las paginas 
+      (Página 1) x1 = 2
+      (Página 2) x2 = 2
+      (Página 3) x3 = 1
+      .
+ 
+    </p>
+    <div class=" col-12" align="center"><img src="img/pageRank ejemplo2.png" width="500"  height="300"></div> 
+
+    <p class="bg-danger">
+   
+
+      Dividimos para el numero de entradas en cada pagina.
+      .
+ 
+    </p>
+    <div class=" col-12" align="center"><img src="img/pageRank ejemplo3.png" width="500"  height="300"></div> 
+
+
+    <p class="bg-danger">
+   
+      Creamos nuestra matriz 
+      .
+ 
+    </p>
+    <div class=" col-12" align="center"><img src="img/pageRank ejemplo4.png" width="200"  height="150"></div> 
+
+    <h2><strong><center> Cálculo del PageRank </center></strong></h2>
+
+    <h2><strong> Para la página 1 </strong></h2>
+    <p class="bg-danger">
+   
+    
+ Veamos que ocurre con el pagerank de la página 1,
+De la página 2 Recibe 1/2 del pagerank de la 2, debido a que la página 2 tiene 2 salidas.
+De la página 3 Recibe también 1/2 de la página 3 ya que tiene dos salidas.
+Por lo tanto la página 1 tiene un pagerank de (1/2)(1/3) de 3 y (1/2)(1/3) de 2, después de la
+primera transición, es decir un total de (1/2)(1/3) + (1/2)(1/3) = 1/3.
+
+
+ 
+    </p>
+
+    <h2><strong>Para la página 2 </strong></h2>
+    <p class="bg-danger">
+   
+    
+      Para la página 2 Veamos que ocurre con el pagerank de la página 2,
+      De la página 1 Recibe 1 de esta página, debido a que está página solo tiene una salida.
+      De la página 3 Recibe 1/2 de esta página, debido a que está página tiene 2 salidas.
+      Por lo tanto la página 2 tiene un pagerank de (1/2)(1/3) de 1 y (1)(1/3) de 3, después de la primera
+      transición. Es decir un total de (1)(1/3) + (1/2)(1/3) = 1/2.
+      
+      Para la página 3 Veamos que ocurre con el pagerank de la página 3,
+      De la página 1 No recibe nada de esta página.
+      De la página 2 Recibe (1/2), debido a que la página 2 tiene dos ligas de salida.
+      Por lo tanto la página 3 tiene un pagerank de (0)(1/3) de 1 y (1/2)(1/3) de 3, después de la primera
+      transición. Es decir un total de (1/2)(1/3) = 1/6.
+
+ 
+    </p>
+
+    <h2><strong>Para la página 3 </strong></h2>
+    <p class="bg-danger">
+   
+   
+      
+      Para la página 3 Veamos que ocurre con el pagerank de la página 3,
+      De la página 1 No recibe nada de esta página.
+      De la página 2 Recibe (1/2), debido a que la página 2 tiene dos ligas de salida.
+      Por lo tanto la página 3 tiene un pagerank de (0)(1/3) de 1 y (1/2)(1/3) de 3, después de la primera
+      transición. Es decir un total de (1/2)(1/3) = 1/6. <br>
+
+obteniendo el siguiente resultado 
+ 
+    </p>
+    <div class=" col-12" align="center"><img src="img/pageRank ejemplo5.png" width="100"  height="50"></div> 
+
+    <h2><strong><center> Ejemplo Neo4j </center></strong></h2>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/CieBiPrcH58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>

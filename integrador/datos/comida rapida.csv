@@ -1,0 +1,112 @@
+﻿LONGITUDE;LATITUDE;LABEL;KML_FOLDER;KML_STYLE;descripción;valor
+-78,9777007;-2,8886525;Chifa Salón Oriental;comida china;icon-1899-9C27B0-labelson;;4.4
+-79,0083852;-2,9068826;CHIFA ASIA;comida china;icon-1899-0097A7-labelson;;4.3
+-78,9997680;-2,8982141;Chifa China;comida china;icon-1899-3949AB-labelson;;4.2
+-79,0102353;-2,9057291;China Bistro Restaurante;comida china;icon-1899-E65100-labelson;;4.3
+-79,0025376;-2,8982593;Chifa Cantones;comida china;icon-1899-817717-labelson;;4.3
+-79,0190460;-2,8924132;Chifa Dong Fang;comida china;icon-1899-0F9D58-labelson;;4.3
+-78,9950580;-2,8949740;Chifa China;comida china;icon-1899-3949AB-labelson;;4.1
+-79,0017909;-2,9063680;Chifa Nueva China;comida china;icon-1899-FFD600-labelson;;4.2
+-79,0149285;-2,8979463;La Gran Muralla II;comida china;icon-1899-1A237E-labelson;;4.3
+-79,0034684;-2,8999010;Chinatown;comida china;icon-1899-A52714-labelson;;4.2
+-79,0025827;-2,8984367;Chifa Cantones;Indicaciones de Chifa Cantones a Chinatown;icon-ci-10-nodesc;;
+-79,0034173;-2,8999102;Chinatown;Indicaciones de Chifa Cantones a Chinatown;icon-ci-11-nodesc;;
+-79,0025827;-2,8984367;Chifa Cantones;Indicaciones de Chifa Cantones a Chifa China;icon-ci-10-nodesc;;
+-78,9997531;-2,8981586;Chifa China;Indicaciones de Chifa Cantones a Chifa China;icon-ci-11-nodesc;;
+-79,0025827;-2,8984367;Chifa Cantones;Indicaciones de Chifa Cantones a La Gran Muralla II;icon-ci-10-nodesc;;
+-79,0148511;-2,8979667;La Gran Muralla II;Indicaciones de Chifa Cantones a La Gran Muralla II;icon-ci-11-nodesc;;
+-79,0034173;-2,8999102;Chinatown;Indicaciones de Chinatown a China Bistro Restaurante;icon-ci-10-nodesc;;
+-79,0103307;-2,9059375;China Bistro Restaurante;Indicaciones de Chinatown a China Bistro Restaurante;icon-ci-11-nodesc;;
+-79,0103726;-2,9059184;China Bistro Restaurante;Indicaciones de China Bistro Restaurante a Chifa Nueva China;icon-ci-10-nodesc;;
+-79,0017940;-2,9063019;Chifa Nueva China;Indicaciones de China Bistro Restaurante a Chifa Nueva China;icon-ci-11-nodesc;;
+-79,0148511;-2,8979667;La Gran Muralla II;Indicaciones de La Gran Muralla II a CHIFA ASIA;icon-ci-10-nodesc;;
+-79,0083644;-2,9068234;CHIFA ASIA;Indicaciones de La Gran Muralla II a CHIFA ASIA;icon-ci-11-nodesc;;
+-78,9997531;-2,8981586;Chifa China;Indicaciones de Chifa China a Chifa Salón Oriental;icon-ci-10-nodesc;;
+-78,9778677;-2,8888176;Chifa Salón Oriental;Indicaciones de Chifa China a Chifa Salón Oriental;icon-ci-11-nodesc;;
+-79,0148511;-2,8979667;La Gran Muralla II;Indicaciones de La Gran Muralla II a Chifa Dong Fang;icon-ci-10-nodesc;;
+-79,0188367;-2,8924066;Chifa Dong Fang;Indicaciones de La Gran Muralla II a Chifa Dong Fang;icon-ci-11-nodesc;;
+-78,9778677;-2,8888176;Chifa Salón Oriental;Indicaciones de Chifa Salón Oriental a Chifa Nueva China;icon-ci-10-nodesc;;
+-79,0017940;-2,9063019;Chifa Nueva China;Indicaciones de Chifa Salón Oriental a Chifa Nueva China;icon-ci-11-nodesc;;
+-79,0113534;-2,9039340;Carbón & Leña - Hamburguesas;hamburguesas;icon-1899-0F9D58-labelson;;4.6
+-78,9569828;-2,9203318;Hamburguesas-Salchipapas (La Tonga Fast Food);hamburguesas;icon-1899-F9A825-labelson;;5.0
+-79,0000563;-2,9086469;Ruta 66 Hamburguesas;hamburguesas;icon-1899-01579B-labelson;;4.6
+-78,9944994;-2,9090106;Big Kabuda's Burgers, Cuenca;hamburguesas;icon-1899-C2185B-labelson;;4.5
+-79,0117630;-2,9057120;ROCK N BURGUER;hamburguesas;icon-1899-AFB42B-labelson;;3.9
+-79,0100633;-2,9093230;John's;hamburguesas;icon-1899-E65100-labelson;;4.4
+-79,0162931;-2,9065474;Hamburguesas cuenca;hamburguesas;icon-1899-FFD600-labelson;;4.1
+-78,9970190;-2,9110942;La Hamburguesa al Carbón;hamburguesas;icon-1899-817717-labelson;;4.3
+-78,9915249;-2,9080318;Las Hamburguesas Del Cubano;hamburguesas;icon-1899-F57C00-labelson;;4.6
+-79,0100131;-2,9092040;John's;Indicaciones de John's a Ruta 66 Hamburguesas;icon-ci-10-nodesc;;
+-78,9998022;-2,9085364;Ruta 66 Hamburguesas;Indicaciones de John's a Ruta 66 Hamburguesas;icon-ci-11-nodesc;;
+-79,0100131;-2,9092040;John's;Indicaciones de John's a ROCK N BURGUER;icon-ci-10-nodesc;;
+-79,0118025;-2,9056862;ROCK N BURGUER;Indicaciones de John's a ROCK N BURGUER;icon-ci-11-nodesc;;
+-79,0100131;-2,9092040;John's;Indicaciones de John's a Hamburguesas cuenca;icon-ci-10-nodesc;;
+-79,0162770;-2,9065525;Hamburguesas cuenca;Indicaciones de John's a Hamburguesas cuenca;icon-ci-11-nodesc;;
+-78,9998352;-2,9084607;Ruta 66 Hamburguesas;Indicaciones de Ruta 66 Hamburguesas a Big Kabuda's Burgers, Cuenca;icon-ci-10-nodesc;;
+-78,9945032;-2,9090534;Big Kabuda's Burgers, Cuenca;Indicaciones de Ruta 66 Hamburguesas a Big Kabuda's Burgers, Cuenca;icon-ci-11-nodesc;;
+-78,9945032;-2,9090534;Big Kabuda's Burgers, Cuenca;Indicaciones de Big Kabuda's Burgers, Cuenca a Las Hamburguesas Del Cubano;icon-ci-10-nodesc;;
+-78,9914931;-2,9080825;Las Hamburguesas Del Cubano;Indicaciones de Big Kabuda's Burgers, Cuenca a Las Hamburguesas Del Cubano;icon-ci-11-nodesc;;
+-78,9945032;-2,9090534;Big Kabuda's Burgers, Cuenca;Indicaciones de Big Kabuda's Burgers, Cuenca a Calle:Avenida Huayna Capac, Exterior:1, 100, Sagrario, Cuenca 010101;icon-ci-10-nodesc;;
+-78,9965882;-2,8933985;Calle:Avenida Huayna Capac, Exterior:1, 100, Sagrario, Cuenca 010101;Indicaciones de Big Kabuda's Burgers, Cuenca a Calle:Avenida Huayna Capac, Exterior:1, 100, Sagrario, Cuenca 010101;icon-ci-11-nodesc;;
+-79,0118025;-2,9056862;ROCK N BURGUER;Indicaciones de ROCK N BURGUER a Carbón & Leña - Hamburguesas;icon-ci-10-nodesc;;
+-79,0114536;-2,9040749;Carbón & Leña - Hamburguesas;Indicaciones de ROCK N BURGUER a Carbón & Leña - Hamburguesas;icon-ci-11-nodesc;;
+-79,0114536;-2,9040749;Carbón & Leña - Hamburguesas;Indicaciones de Carbón & Leña - Hamburguesas a Don Loren;icon-ci-10-nodesc;;
+-78,9965882;-2,8933985;Don Loren;Indicaciones de Carbón & Leña - Hamburguesas a Don Loren;icon-ci-11-nodesc;;
+-79,0100131;-2,9092040;John's;Indicaciones de John's a Don Loren;icon-ci-10-nodesc;;
+-78,9965882;-2,8933985;Don Loren;Indicaciones de John's a Don Loren;icon-ci-11-nodesc;;
+-78,9869834;-2,9023308;Piatto Pizza Delivery | Paseo de los Cañaris;pizzeria;icon-1899-817717-labelson;;4.4
+-79,0164590;-2,9062815;PIZZA ECUADOR;pizzeria;icon-1899-558B2F-labelson;;2.5
+-79,0179587;-2,8982285;La Fornace;pizzeria;icon-1899-FBC02D-labelson;;4.2
+-79,0023412;-2,9015043;PIZZALACQUA;pizzeria;icon-1899-7CB342-labelson;;4.5
+-79,0060181;-2,8955554;Chicago Pizza Restaurant;pizzeria;icon-1899-F9A825-labelson;;4.1
+-79,0086246;-2,9100462;Tutto Matto Pizzería;pizzeria;icon-1899-AFB42B-labelson;;4.5
+-78,9990447;-2,9099484;Napoletana Pizza;pizzeria;icon-1899-9C27B0-labelson;;4.5
+-79,0031382;-2,8980800;La Fornace;pizzeria;icon-1899-FBC02D-labelson;;4.3
+-79,0017732;-2,8968884;Cresly Pizzeria;pizzeria;icon-1899-F57C00-labelson;;4.8
+-78,9868190;-2,8848232;Rollchesse Pizza Cuenca;pizzeria;icon-1899-673AB7-labelson;;4.0
+-79,0030739;-2,8980927;La Fornace;Indicaciones de La Fornace a Cresly Pizzeria;icon-ci-10-nodesc;;
+-79,0017959;-2,8968839;Cresly Pizzeria;Indicaciones de La Fornace a Cresly Pizzeria;icon-ci-11-nodesc;;
+-79,0030739;-2,8980927;La Fornace;Indicaciones de La Fornace a PIZZALACQUA;icon-ci-10-nodesc;;
+-79,0023638;-2,9016129;PIZZALACQUA;Indicaciones de La Fornace a PIZZALACQUA;icon-ci-11-nodesc;;
+-79,0030739;-2,8980927;La Fornace;Indicaciones de La Fornace a Chicago Pizza Restaurant;icon-ci-10-nodesc;;
+-79,0060027;-2,8954966;Chicago Pizza Restaurant;Indicaciones de La Fornace a Chicago Pizza Restaurant;icon-ci-11-nodesc;;
+-79,0017959;-2,8968839;Cresly Pizzeria;Indicaciones de Cresly Pizzeria a Napoletana Pizza;icon-ci-10-nodesc;;
+-78,9991908;-2,9099860;Napoletana Pizza;Indicaciones de Cresly Pizzeria a Napoletana Pizza;icon-ci-11-nodesc;;
+-79,0023638;-2,9016129;PIZZALACQUA;Indicaciones de PIZZALACQUA a Tutto Matto Pizzería;icon-ci-10-nodesc;;
+-79,0084507;-2,9100582;Tutto Matto Pizzería;Indicaciones de PIZZALACQUA a Tutto Matto Pizzería;icon-ci-11-nodesc;;
+-79,0023638;-2,9016129;PIZZALACQUA;Indicaciones de PIZZALACQUA a Piatto Pizza Delivery | Paseo de los Cañaris;icon-ci-10-nodesc;;
+-78,9870588;-2,9023894;Piatto Pizza Delivery | Paseo de los Cañaris;Indicaciones de PIZZALACQUA a Piatto Pizza Delivery | Paseo de los Cañaris;icon-ci-11-nodesc;;
+-79,0060027;-2,8954966;Chicago Pizza Restaurant;Indicaciones de Chicago Pizza Restaurant a La Fornace;icon-ci-10-nodesc;;
+-79,0179980;-2,8983202;La Fornace;Indicaciones de Chicago Pizza Restaurant a La Fornace;icon-ci-11-nodesc;;
+-79,0060027;-2,8954966;Chicago Pizza Restaurant;Indicaciones de Chicago Pizza Restaurant a PIZZA ECUADOR;icon-ci-10-nodesc;;
+-79,0163400;-2,9063210;PIZZA ECUADOR;Indicaciones de Chicago Pizza Restaurant a PIZZA ECUADOR;icon-ci-11-nodesc;;
+-79,0084607;-2,9100931;Tutto Matto Pizzería;Indicaciones de Tutto Matto Pizzería a PIZZA ECUADOR;icon-ci-10-nodesc;;
+-79,0163400;-2,9063210;PIZZA ECUADOR;Indicaciones de Tutto Matto Pizzería a PIZZA ECUADOR;icon-ci-11-nodesc;;
+-79,0132631;-2,9042661;Pollos de la Remigio;pollos asados;icon-1899-0097A7-labelson;;4.1
+-78,9450782;-2,8777386;Pollos Asados ANDREITA;pollos asados;icon-1899-558B2F-labelson;;5.0
+-78,9770256;-2,9013681;" DEL BOSQUE " POLLOS ASADOS $10;pollos asados;icon-1899-673AB7-labelson;;4.5
+-78,9833840;-2,8990659;Pollos De La Remigio;pollos asados;icon-1899-1A237E-labelson;;4.1
+-79,0384836;-2,9220711;Mega Chifa Pollo Carbonero;pollos asados;icon-1899-7CB342-labelson;;4.1
+-79,0090185;-2,8861304;Viko Pollería;pollos asados;icon-1899-3949AB-labelson;;4.3
+-79,0421207;-2,8870978;ASADOS Y PARAILLADAS;pollos asados;icon-1899-AFB42B-labelson;;4.0
+-78,9847087;-2,9016509;Kaníbales;pollos asados;icon-1899-FFD600-labelson;;4.3
+-79,0036660;-2,8998270;Pio Pio Restaurantes Centro;pollos asados;icon-1899-FFEA00-labelson;;4.1
+-78,9947284;-2,8857614;El Papi Pollo;pollos asados;icon-1899-FBC02D-labelson;;4.1
+-79,0036956;-2,8999650;Pio Pio Restaurantes Centro;Indicaciones de Pio Pio Restaurantes Centro a Pollos de la Remigio;icon-ci-11-nodesc;;
+-79,0131146;-2,9043363;Pollos de la Remigio;Indicaciones de Pio Pio Restaurantes Centro a Pollos de la Remigio;icon-ci-12-nodesc;;
+-79,0036956;-2,8999650;Pio Pio Restaurantes Centro;Indicaciones de Pio Pio Restaurantes Centro a Kaníbales;icon-ci-11-nodesc;;
+-78,9845233;-2,9016375;Kaníbales;Indicaciones de Pio Pio Restaurantes Centro a Kaníbales;icon-ci-12-nodesc;;
+-78,9845233;-2,9016375;Kaníbales;Indicaciones de Kaníbales a Pollos De La Remigio;icon-ci-11-nodesc;;
+-78,9834841;-2,8991102;Pollos De La Remigio;Indicaciones de Kaníbales a Pollos De La Remigio;icon-ci-12-nodesc;;
+-79,0036956;-2,8999650;Pio Pio Restaurantes Centro;Indicaciones de Pio Pio Restaurantes Centro a Viko Pollería;icon-ci-11-nodesc;;
+-79,0089296;-2,8863662;Viko Pollería;Indicaciones de Pio Pio Restaurantes Centro a Viko Pollería;icon-ci-12-nodesc;;
+-79,0036956;-2,8999650;Pio Pio Restaurantes Centro;Indicaciones de Pio Pio Restaurantes Centro a El Papi Pollo;icon-ci-11-nodesc;;
+-78,9945964;-2,8856808;El Papi Pollo;Indicaciones de Pio Pio Restaurantes Centro a El Papi Pollo;icon-ci-12-nodesc;;
+-78,9945964;-2,8856808;El Papi Pollo;Indicaciones de El Papi Pollo a Pollos De La Remigio;icon-ci-11-nodesc;;
+-78,9834841;-2,8991102;Pollos De La Remigio;Indicaciones de El Papi Pollo a Pollos De La Remigio;icon-ci-12-nodesc;;
+-79,0089296;-2,8863662;Viko Pollería;Indicaciones de Viko Pollería a Pollos de la Remigio;icon-ci-11-nodesc;;
+-79,0131588;-2,9041598;Pollos de la Remigio;Indicaciones de Viko Pollería a Pollos de la Remigio;icon-ci-12-nodesc;;
+-79,0421221;-2,8870977;ASADOS Y PARAILLADAS;Indicaciones de ASADOS Y PARAILLADAS a Pollos de la Remigio;icon-ci-11-nodesc;;
+-79,0131588;-2,9041598;Pollos de la Remigio;Indicaciones de ASADOS Y PARAILLADAS a Pollos de la Remigio;icon-ci-12-nodesc;;
+-79,0421221;-2,8870977;ASADOS Y PARAILLADAS;Indicaciones de ASADOS Y PARAILLADAS a Viko Pollería;icon-ci-11-nodesc;;
+-79,0089296;-2,8863662;Viko Pollería;Indicaciones de ASADOS Y PARAILLADAS a Viko Pollería;icon-ci-12-nodesc;;

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Community detection algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+        <li><a href="conclusion.html">conclusion</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.3. Community detection algorithms </center></strong></h2>
+    <p class="bg-danger">
+      Los algoritmos de detección de comunidad se utilizan para evaluar cómo se agrupan o particionan los grupos de nodos, 
+      así como su tendencia a fortalecerse o separarse.  
+    </p>
+    <h2><strong><center>Componentes fuertemente conectados  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/fuerteConectado.png" width="500"  height="500"></div>
+    <p class="bg-danger">
+      los algoritmos de componentes fuertemente conectados  permiten entender el comportamiento de los nodos 
+      que conforman un grafo dirigido y poseen un tipo específico de conectividad. Para que se considere un componente
+       fuertemente conectado o conexo este grafo debe poseer nodos que estén totalmente conectados entre sí. 
+       Dentro de un grafo dirigido es posible que no exista una conexión fuerte, aunque es posible que exista una o varias vinculaciones. 
+       Se busca con estos algoritmos determinar los componentes fuertemente conectados de mayor tamaño.
+    </p>
+
+    <h2><strong><center>Casos de uso </center></strong></h2>
+    <p class="bg-danger"> 
+      Entonces podríamos usar la similitud calculada como parte de una consulta de recomendación. 
+      Por ejemplo, puede usar el algoritmo de similitud Jaccard para mostrar los productos que fueron comprados por clientes similares, 
+      en términos de productos anteriores comprados.</p>
+  <div class=" col-12" align="center"><img src="img/fuerteConectados.png" width="500"  height="500"></div>
+ 
+
+  <h2><strong><center>Componentes fuerte mente conexos </center></strong></h2>
+  <p class="bg-danger"> 
+    Primero explicaremos que es un grafo fuertemente conexos y débilmente conexos </p>
+<div class=" col-12" align="center"><img src="img/ejemplo componente fuertes1.png" width="500"  height="500"></div>
+
+
+<p class="bg-danger"> 
+  Un grafo es fuertemente conexo si hay un camino entre cada par de vértices del mismo, caso contrario es un grafo débilmente conexo.
+
+Los grafos fuertemente conexos nos permiten llegar a cada uno de los nodos y viceversa 
+ejemplo podemos observar que partiendo del nodo A podemos llegar a nodo C pasando por el nodo B.
+cambiando el sentido ahora partiremos del nodo ce para llegar al nodo a pasando primero por el nodo D y luego por el nodo E llegando al nodo A.
+ </p>
+<div class=" col-12" align="center"><img src="img/ejemplo componente fuertes2.png" width="400"  height="300"></div>
+
+<p class="bg-danger"> 
+  El siguiente grafo es débilmente conexo porque al intentar llegar al nodo A partiendo del nodo C nos permite llegar pasando por el nodo D y E.
+  Pero al intentar llegar al nodo C partiendo del nodo A no es posible por lo tanto es un grafo débilmente conexo 
+  
+ </p>
+<div class=" col-12" align="center"><img src="img/ejemplo componente fuertes3.png" width="400"  height="300"></div>
+
+<p class="bg-danger"> 
+  Componentes fuerte mente conexos 
+  Los componentes fuerte mente conexos nos permite dividir un grafo débilmente conexo en subgrafos los cuales serán fuerte mente conexos.
+  
+ </p>
+<div class=" col-12" align="center"><img src="img/ejemplo componente fuertes4.png" width="400"  height="300"></div>
+<p class="bg-danger"> 
+  En este caso podemos identificar los componentes fuertemente conexos los cueles tiene los siguientes vértices 
+  •	{A, B, D, E}
+  •	{C, F, G}
+  
+  
+ </p>
+<div class=" col-12" align="center"><img src="img/ejemplo componente fuertes5.png" width="400"  height="300"></div>
+
+<h2><strong><center>Ejemplo en Neo4j </center></strong></h2>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kXc-Odq1lkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>

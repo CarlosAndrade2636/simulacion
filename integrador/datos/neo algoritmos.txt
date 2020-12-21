@@ -1,0 +1,10 @@
+
+________________________________________________ primero______________________________________________
+CALL gds.alpha.scc.stream({
+  nodeQuery: 'MATCH (u:china) where u.Ciudad="cuenca"  RETURN id(u)  AS id',
+relationshipQuery: 'MATCH (u1:china)-[:DISTANCIA]->(u2:china) where u1.Ciudad="cuenca" AND u2.Ciudad="cuenca" RETURN id(u1) AS source, id(u2) AS target' })
+YIELD nodeId, componentId
+RETURN gds.util.asNode(nodeId).name AS Name, componentId AS Component
+ORDER BY Component DESC
+
+_____________________________________segundo ________________________________________________

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> Path finding algorithms</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">UPS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="Centrality algorithms.html">Centrality algorithms</a></li>
+        <li><a href="Community detection algorithms.html">Community detection algorithms</a></li>
+        <li><a href="Similarity algorithms.html">Similarity algorithms</a></li>
+        <li><a href="Link Prediction algorithms.html">Link Prediction algorithms</a></li>
+        <li><a href="Path finding algorithms.html">Path finding algorithms</a></li>
+        <li><a href="conclusion.html">conclusion</a></li>
+      
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrar</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container" >
+    </a>
+    <h2><strong><center>5.5. Algoritmos de búsqueda de ruta</center></strong></h2>
+    <p class="bg-danger">
+      Los algoritmos de búsqueda de ruta encuentran la ruta más corta entre dos o más nodos o evalúan la disponibilidad y la calidad de las rutas <br>
+      Este se encarga de detectar dentro de un grafo cuál es la ruta más eficiente o el recorrido de menor distancia entre un par de vértices que conforman un grafo.x
+    </p>
+    <h2><strong><center> Ruta más corta de una sola fuente  </center></strong></h2>
+    <div class=" col-12" align="center"><img src="img/ruta mas corta.jpg" width="400"  height="200"></div>
+    <p class="bg-danger">
+      Encuentre las rutas más cortas desde un vértice de origen específico a cualquier 
+      otro vértice en un gráfico ponderado y dirigido . El algoritmo de Dijkstra resuelve esto
+       si todos los pesos no son negativos. El algoritmo Bellman-Ford maneja cualquier peso.<br>
+        Este se define como el tamaño de la intersección dividida por el tamaño  de la unión de dos conjuntos.  Este se rige bajo la siguiente formula:
+    </p>
+    <div class=" col-12" align="center"><img src="img/images.jfif"  width="400"  height="200"></div>
+    <h2><strong><center>Casos de uso</center></strong></h2>
+    <p class="bg-danger"> 
+   - Puede usarse para encontrar el conjunto de empresas en las que cada miembro posee acciones directas y / o indirectas en todos los demás miembros.</br>
+   - puede utilizar para calcular la conectividad de diferentes configuraciones de red al medir el rendimiento de enrutamiento en redes inalámbricas de múltiples tiendas. </br>
+   - ueden usar para encontrar dichos grupos y sugerir las páginas o juegos que comúnmente les gustan a las personas del grupo que aún no les han gustado esas páginas o juegos.</br>
+  </p>
+  
+ 
+  <h2><strong><center>Ejemplo</center></strong></h2>
+  <p class="bg-danger"> 
+     
+    Del siguiente grafo queremos ir desde el nodo A.  por lo tanto, la distancia de A es 0 y los vértices restantes tiene un valor de distancia indefinida(infinita)
+    </p>
+<div class=" col-12" align="center"><img src="img/ejemplo una solo fauent.png" width="500"  height="500"></div>
+<p class="bg-danger"> 
+     
+  Y obtenemos el costo desde a los vecinos 
+B,E.<br>
+Lista de nodos {A->B=10, A->E=3}<br>
+Nodos visitados{A=0}<br>
+
+Y nos dirigimos al nodo con menor costo en este caso es el nodo E<br>
+</p>
+<div class=" col-12" align="center"><img src="img/ejemplo una solo fauent 2.png" width="500"  height="500"></div>
+<p class="bg-danger"> 
+     
+  Realizamos nuevamente el calculo de las relaciones de distancia saliente a cada nodo vecino.<br>
+
+Lista de nodos {A->B=10, A->E->B=4, A->E->C=11, A->E->C=,}}<br>
+Nodos visitados{A=0, E=3}
+
+</p>
+<div class=" col-12" align="center"><img src="img/ejemplo una solo fauent 3.png" width="500"  height="500"></div>
+<p class="bg-danger"> 
+     
+  Lista de nodos {A->B=10, A->E->B=4, A->E->C=11, A->E->C=5, A->E->B->E=7 =6, A->E->B->C =6}<br>
+  Nodos visitados{A=0, E=3,B=4}<br>
+  
+
+</p>
+<div class=" col-12" align="center"><img src="img/ejemplo una solo fauent 4.png" width="500"  height="500"></div>
+<p class="bg-danger"> 
+     
+  Lista de nodos {A->B=10, A->E->B=4, A->E->C=11, A->E->C=5, A->E->B->E=7 =6, A->E->B->C =6}<br>
+Nodos visitados{A=0, E=3,B=4, C=6}<br>
+
+  
+
+</p>
+<div class=" col-12" align="center"><img src="img/ejemplo una solo fauent 5.png" width="500"  height="500"></div>
+<p class="bg-danger"> 
+     
+  Lista de nodos {A->B=10, A->E->B=4, A->E->C=11, A->E->C=5, A->E->B->E=7 =6, A->E->B->C =6, A->E->B->C ->D=11}<br>
+  Nodos visitados{A=0, E=3,B=4, C=6, D=5}<br>
+
+  
+
+</p>
+
+   
+    <div class="callout">
+      <div class="callout-header">Bienvenido</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+      <div class="callout-container">
+        <p>
+          </p>
+
+      </div>
+    </div>
+  </div>
+  </body>
+
+</html>
